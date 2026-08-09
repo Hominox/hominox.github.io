@@ -1,2 +1,2 @@
-# limema.github.io
-The information panel of Neo Limema Malefetsane
+# hominox.github.io
+The development panel of Neo Malefetsane
