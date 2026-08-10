@@ -7,10 +7,12 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="./style.css">
   <script>
-    document.addEventListener('click', (event) => {
-      // Logs the specific tag name (e.g., "BUTTON", "DIV", "BODY")
-      console.log("Clicked element: " + event.target.tagName);
-    });
+    document.addEventListener('DOMContentLoaded', () => {
+      document.addEventListener('click', (event) => {
+        // Logs the specific tag name (e.g., "BUTTON", "DIV", "BODY")
+        console.log("Clicked element: " + event.target.tagName);
+      });
+    }
   </script>
 </head>
 <body>
