@@ -10,7 +10,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       document.addEventListener('click', (event) => {
         // Logs the specific tag name (e.g., "BUTTON", "DIV", "BODY")
-        console.log("Clicked element: " + event.target.tagName);
+        console.log("Clicked element: " + JSON.stringify(event.target));
       });
     }
   </script>
