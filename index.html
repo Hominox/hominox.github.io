@@ -12,8 +12,8 @@
         // Logs the specific tag name (e.g., "BUTTON", "DIV", "BODY")
         // console.log("Clicked element: " + JSON.stringify(event.target));
         // console.log("Clicked element:");
-        const safeHtml = btoa(event.target.outerHTML);
-        console.log("DECODE_ME:" + safeHtml);
+        
+        console.log("DECODE_ME:" + btoa(event.target.outerHTML));
       });
     });
   </script>
