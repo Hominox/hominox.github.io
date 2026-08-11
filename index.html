@@ -9,9 +9,12 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       document.addEventListener('click', (event) => {
+        // Keeping this code for some reference
+        // == OPEN == 11-08-2026
         // Logs the specific tag name (e.g., "BUTTON", "DIV", "BODY")
-        // console.log("Clicked element: " + JSON.stringify(event.target));
-        console.log("Clicked Element: " + event.target.outerHTML);
+        // console.log("Clicked element: " + JSON.stringify(event.target)); --> This one is not working
+        // console.log("Clicked Element: " + event.target.outerHTML); --> This one works beatifully
+        // == CLOSE ==
       });
     });
   </script>
